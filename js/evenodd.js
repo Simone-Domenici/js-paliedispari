@@ -20,3 +20,11 @@ sum(userNumber,cpuNumber)
 console.log(userNumber, cpuNumber)
 
 console.log(sum(userNumber,cpuNumber))
+
+const isEven = sum(userNumber,cpuNumber) % 2 === 0
+
+if ((evenOrOdd === 'pari' && isEven) || (evenOrOdd === 'dispari' && !isEven)) {
+    console.log('Hai vinto!')
+} else {
+    console.log('Hai perso!')
+}
